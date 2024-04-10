@@ -143,32 +143,32 @@
 
 // async function were to be used with await
 // IIFE - Immediately Invoked Function Expression and try and catch
-(async function sayTheTruth() {
-  try {
-    console.log('instant')
-    // const data = await fetch('httpz://api.github.com/users/oluwasetemi')
-    // const result = await data.json()
-    // console.log(result.login)
-    const res = await addPromise(2)
-    console.log(res)
-    // we can now use await
-  }
-  catch(err) {
-    console.log(err.message || err)
-  }
-})()
+// (async function sayTheTruth() {
+//   try {
+//     console.log('instant')
+//     // const data = await fetch('httpz://api.github.com/users/oluwasetemi')
+//     // const result = await data.json()
+//     // console.log(result.login)
+//     const res = await addPromise(2)
+//     console.log(res)
+//     // we can now use await
+//   }
+//   catch(err) {
+//     console.log(err.message || err)
+//   }
+// })()
 
 
 
 
-async function fetchData() {
+// async function fetchData() {
 
-  try {
-   const response = await fetch('ghjjjj')
-   if ()
-   const data = response.json()
-   return data.message
-  } catch (error) {
+//   try {
+//    const response = await fetch('ghjjjj')
+//    if ()
+//    const data = response.json()
+//    return data.message
+//   } catch (error) {
     
-  }
-}
+//   }
+// }
